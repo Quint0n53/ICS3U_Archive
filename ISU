@@ -173,7 +173,7 @@ int number() {//start in square 1 and pick random number, after that remove 1 fr
 			rows(i, j, board[i][j]);///delete from all other boxes
 			cols(i, j, board[i][j]);
 			boxes(i, j, board[i][j]);
-		}
+		} 
 	}
 	return 1;
 }
